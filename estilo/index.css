@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0;
+    margin-top: -16px;
+}
+
+header {
+    background-color: white;
+    height: 150px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 12px 1px gray;
+    text-shadow: 1px 1px 1px;
+    position: relative;
+}
+
+.patitoLogo {
+    width: 270px;
+    margin-top: -2px;
+    left: -290px;
+    position: absolute;
+}
+
+.botonxd {
+    margin-left: -115px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    left: 140px;
+    top: 15px;
+    padding: 4px 8px;
+    overflow-y: auto;
+    font-size: 55px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    z-index: 90;
+}
+.botonxd:hover {
+    background-color: #E6E6E6;
+    color: white;
+}
+.botonxd:active {
+    background-color: black;
+}
+.fa-solid {
+    color :#CB6CE6;
+}
+.cocinatitos {
+    font-size: 39px;
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 550px;
+    font-weight: 500;
+    color: BLACK;
+
+}
+strong {
+    color: #ffcd00;
+}
+img {
+    width: 100px;
+    margin-top: 8px;
+    margin-left: 870px;
+    position: fixed;
+}
+
+
+.nav-menu {
+    width: 200px;
+    height: 120px;
+    margin-left: -290px;
+    position: absolute;
+    display: block;
+    transition: 0.2s;
+}
+.nav-menu-visible {
+    display: block;
+    margin-left: 90px;
+}
+.nav-ul {
+    height: 100%;
+    position: relative;
+}
+.nav-li {
+    margin: 10px;
+    list-style:none;
+    padding: 3px;
+    box-shadow:  rgb(202, 202, 202) 1px 0px 5px;
+}
+.nav-a {
+    color: #CB6CE6;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav-a-1 {
+    margin-left: 29px;
+}
+#nav-a-2 {
+    margin-left: 29px;
+}
+
+#nav-a-3 {
+    margin-left: 29px;
+}
+.nav-a:hover {
+    color: rgb(202, 199, 199);
+}
+
+
+.primerBloque {
+    background:#F1F1F0;
+    margin-top:10px;
+    width: 100%;
+    height: 120px;
+    color: white;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+h2 {
+    color: #5B5B5B;
+    margin-left: 320px;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+
+.padreContenedor {
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    background-image: url(../images/fondo.png), linear-gradient(0.25turn, #CB6CE6, #df8ef5, #CB6CE6);
+
+}
+
+#contenedor {
+    margin: auto;
+    margin-top: 80px;   
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px gray;
+    border-radius: 3px;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    
+}
+
+.itemCarrusel {
+    border: 1px solid black;
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel {
+    height: 100%;
+}
+
+.flechasCarrusel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#tarjetaCarrusel-1 {
+    background-image: url("../images/cansado2.png");
+    object-fit: center;
+    
+}
+
+
+#tarjetaCarrusel-2 {
+    background-image: url(../images/pukaxd.png);
+}
+#tarjetaCarrusel-3 {
+    background-image:url(../images/garu.png);
+}
+
+#derecha {
+    color: black;
+    font-size: 30px;
+}
+#izquierda {
+    color: black;
+    font-size: 30px;
+}
+
+#derecha:hover {
+    color: rgb(185, 185, 185);
+}
+#derecha:active {
+    color: rgb(71, 71, 71);
+}
+
+#izquierda:hover {
+    color: rgb(185, 185, 185);
+}
+#izquierda:active {
+    color: rgb(71, 71, 71);
+}
+
+#home {
+    position: relative;
+    left: -10px;
+    top: -2px;
+}
+#image {
+    position: relative;
+    left: -10px;
+    top: -2px;
+}
+
+#perfil {
+    position: relative;
+    left: -10px;
+    top: -2px;
+}
+
+.prueba
+
+
